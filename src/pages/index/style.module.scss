@@ -1,0 +1,37 @@
+:global([data-mantine-color-scheme="light"]) {
+  .sectionLight {
+    background: #ffffff;
+  }
+  .sectionDark {
+    background: #f1f3f5;
+  }
+}
+
+:global([data-mantine-color-scheme="dark"]) {
+  .sectionLight {
+    background: #101116;
+  }
+  .sectionDark {
+    background: #17181d;
+  }
+}
+
+.pulseButton {
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+:global([data-mantine-color-scheme="light"]) {
+  .skillCard {
+    background: rgba(0, 0, 0, 0.08);
+  }
+}
+
+:global([data-mantine-color-scheme="dark"]) {
+  .skillCard {
+    background: rgba(255, 255, 255, 0.08);
+  }
+}
