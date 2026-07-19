@@ -1,0 +1,32 @@
+{
+  "name": "You",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vike dev",
+    "build": "vike build",
+    "preview": "vike build && vike preview",
+    "qc": "biome check .",
+    "qa": "biome check --write .",
+    "qau": "biome check --write --unsafe ."
+  },
+  "dependencies": {
+    "@mantine/core": "^8.3.15",
+    "@mantine/hooks": "^8.3.15",
+    "@mantine/modals": "^8.3.15",
+    "@types/react": "^19.2.14",
+    "lucide-react": "^0.575.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "vike": "latest",
+    "vike-react": "latest"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "sass": "^1.81.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}
